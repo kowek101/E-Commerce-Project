@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Economica|Tajawal" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <script src="/java/mainproduct.js"></script>
+    <link rel=stylesheet href="/style/style.css">
+</head>
+
+<body>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+            <img src="/img/logo.png" width="30" height="30" alt="Lock">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="shop.html">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <nav class="navbar fixed-bottom navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+            <img src="/img/logo.png" width="30" height="30" alt="Lock">
+        </a>
+        <ul class="navbar-nav d-md-block d-lg-none">
+            <a class="navbar-brand" href="#" style="text-align: center">
+                By Soukpasack Virasack
+            </a>
+        </ul>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-none d-lg-block" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="shop.html">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <ul class="navbar-nav d-none d-lg-block">
+            <a class="navbar-brand" href="#" style="text-align: center">
+                By Soukpasack Virasack
+            </a>
+        </ul>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-item nav-link disabled" href="#">Social Media</a>
+                </li>
+                <li class="nav-item">
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        <button type="button" class="btn btn-primary"><i class="fa fa-facebook"></i>
+                        </button>
+                        <button type="button" class="btn btn-primary"><i class="fa fa-twitter"></i>
+                        </button>
+                        <button type="button" class="btn btn-primary"><i class="fa fa-instagram"></i>
+                        </button>
+                        <button type="button" class="btn btn-primary"><i class="fa fa-linkedin"></i>
+                        </button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container text-center">
+        <div class="row justify-content-center">
+            <div class="col-md-12">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="shop.html">All Products</a>
+                        </li>
+                        <li class="breadcrumb-item"><a href="#">Locks</a>
+                        </li>
+                        <li class="breadcrumb-item active aria-current=" page>Padlocks
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <h4>Master Lock 2.22-in Steel Shackle Bluetooth Combination Padlock</h4>
+                <div class="row justify-content-center" id="img-row">
+                    <div class="container" id="img-containter">
+                        <!-- Close the image -->
+                        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+                        <!-- Expanded image -->
+                        <img id="expandedImg" style="width:100%">
+
+                        <!-- Image text -->
+                        <div id="imgtext"></div>
+                    </div>
+                    <div class="col-md-3" id="img-col">
+                        <img src="/img/mainlock.jpg" alt="Lock Angle 1" class="img-fluid" onclick="myFunction(this);" onload="myFunction(this);">
+                    </div>
+                    <div class="col-md-3" id="img-col">
+                        <img src="/img/mainlock2.jpg" alt="Lock Angle 2" class="img-fluid" onclick="myFunction(this);">
+                    </div>
+                    <div class="col-md-3" id="img-col">
+                        <img src="/img/mainlock3.jpg" alt="Lock Angle 3" class="img-fluid" onclick="myFunction(this);">
+                    </div>
+                    <div class="col-md-3" id="img-col">
+                        <img src="/img/mainlock4.jpg" alt="Lock Angle 4" class="img-fluid" onclick="myFunction(this);">
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-6">
+                <h4>$59.98</h4>
+                <h6>Color</h6>
+                <div class="btn-group btn-group-toggle d-flex" data-toggle="buttons">
+                    <label class="btn btn-dark active w-100">
+                        <input type="radio" name="options" id="color1" autocomplete="off" checked>Black
+                    </label>
+                    <label class="btn btn-secondary w-100">
+                        <input type="radio" name="options" id="color2" autocomplete="off">Grey
+                    </label>
+                    <label class="btn btn-success w-100">
+                        <input type="radio" name="options" id="color3" autocomplete="off">Green
+                    </label>
+                </div>
+                <h6>Size</h6>
+                <div class="btn-group btn-group-toggle d-flex" data-toggle="buttons">
+                    <label class="btn btn-info active w-100">
+                        <input type="radio" name="options" id="size1" autocomplete="off" checked>Short
+                    </label>
+                    <label class="btn btn-info w-100">
+                        <input type="radio" name="options" id="size2" autocomplete="off">Medium
+                    </label>
+                    <label class="btn btn-info w-100">
+                        <input type="radio" name="options" id="size2" autocomplete="off">Long
+                    </label>
+                    <label class="btn btn-info w-100">
+                        <input type="radio" name="options" id="size3" autocomplete="off">Extra Long
+                    </label>
+                </div>
+                <ul id="summary">
+                    <li>Padlock application: for outdoor use; all-weather lock is best used for residential gates, sheds, garages, outdoor storage lockers and tool chests</li>
+                    <li>Ease of use: use your smartphone to unlock Bluetooth padlock, or enter directional code on lock keypad for easy backup entry when your smartphone isn't present</li>
+                    <li>Shared access: share temporary or permanent access via Bluetooth or keypad code with invited guests or coworkers, monitor activity, and receive tamper and low-battery alerts all from your free Master Lock Vault elocks app for android and iOS</li>
+                    <li>Durable design: padlock includes a 2-piece weather cover, metal body construction, boron carbide shackle, and anti-shim locking mechanism for improved strength, security, and weather resistance; plus military-grade Bluetooth authentication and encryption</li>
+                    <li>Dimensions: 2-7/32 in. wide lock body; 11/32 in. diameter shackle with 2 in. length, 15/16 in. width; extended length shackle for application flexibility</li>
+                </ul>
+                <button type="button" class="btn btn-primary btn-lg">Add to Cart</button>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-12">
+                <div class="accordion" id="accordionExample">
+                    <div class="card">
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                  Description
+                            </button>
+                        </h5>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                            <div class="row justify-content-center">
+                                <div class="col-md-6">
+                                    <div class="card-body">
+                                        The Master Lock no. 4401DLH Bluetooth padlock features a 2-7/32 In. (56 mm) wide metal body for durability. The 11/32 In. (9 mm) diameter shackle offers 2 In. (51 mm) vertical clearance and is made of boron alloy, offering maximum resistance to cutting and sawing. The smartphone/app interface offers speed, ease of use, and greater control with the ability to share access, with keyless convenience. The locking mechanism features anti-shim technology, offering maximum security. The 1 year limited warranty provides peace of mind from a brand you can trust.
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card-body">
+                                        <ul>
+                                            <li>Padlock application: for outdoor use; all-weather lock is best used for residential gates, sheds, garages, outdoor storage lockers and tool chests</li>
+                                            <li>Ease of use: use your smartphone to unlock Bluetooth padlock, or enter directional code on lock keypad for easy backup entry when your smartphone isn't present</li>
+                                            <li>Shared access: share temporary or permanent access via Bluetooth or keypad code with invited guests or coworkers, monitor activity, and receive tamper and low-battery alerts all from your free Master Lock Vault elocks app for android and iOS</li>
+                                            <li>Durable design: padlock includes a 2-piece weather cover, metal body construction, boron carbide shackle, and anti-shim locking mechanism for improved strength, security, and weather resistance; plus military-grade Bluetooth authentication and encryption</li>
+                                            <li>Dimensions: 2-7/32 in. wide lock body; 11/32 in. diameter shackle with 2 in. length, 15/16 in. width; extended length shackle for application flexibility</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
